@@ -5,7 +5,7 @@
     "action": {
       "type": "redirect",
       "redirect": {
-        "regexSubstitution": "https://\\app.slack.com"
+        "regexSubstitution": "https://\\app.slack.com/"
       }
     },
     "condition": {
