@@ -5,11 +5,11 @@
     "action": {
       "type": "redirect",
       "redirect": {
-        "regexSubstitution": "https://\\1zoom.us/wc/\\2/join"
+        "regexSubstitution": "https://\\app.slack.com"
       }
     },
     "condition": {
-      "regexFilter": "^https://([^.]+\\.)?zoom\\.us/j/(\\d+)",
+      "regexFilter": "^https://([^.]+\\.)?slack\\.com/ssb/redirect",
       "resourceTypes": ["main_frame"]
     }
   },
